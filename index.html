@@ -112,16 +112,16 @@
         <div class="label">Founded</div>
       </div>
       <div class="stat-card">
+        <div class="value" id="totalNew">-</div>
+        <div class="label">New</div>
+      </div>
+      <div class="stat-card">
+        <div class="value" id="totalCumulative">-</div>
+        <div class="label">Cumulative</div>
+      </div>
+      <div class="stat-card">
         <div class="value" id="totalCpm">-</div>
         <div class="label">CPM</div>
-      </div>
-      <div class="stat-card">
-        <div class="value" id="totalSources">-</div>
-        <div class="label">Sources</div>
-      </div>
-      <div class="stat-card">
-        <div class="value" id="totalProviders">-</div>
-        <div class="label">Providers</div>
       </div>
     </div>
 
@@ -177,6 +177,8 @@ async function loadData() {
     updateAgo();
 
     document.getElementById('totalFounded').textContent = data.total_founded ?? 0;
+    document.getElementById('totalNew').textContent = data.total_founded ?? 0;
+    document.getElementById('totalCumulative').textContent = data.cumulative ?? 0;
     document.getElementById('totalCpm').textContent = data.cpm ?? 0;
 
     const allProviders = { openai: 0, anthropic: 0, google: 0, replicate: 0, fireworks: 0, huggingface: 0 };
