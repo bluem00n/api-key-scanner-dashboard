@@ -1,1 +1,81 @@
-{}
+{
+  "last_scan": "2026-06-18T21:54:18Z",
+  "status": "success",
+  "total_founded": 54,
+  "cpm": 0,
+  "by_provider": {
+    "openai": 45,
+    "google": 6,
+    "huggingface": 3
+  },
+  "by_source": {
+    "github": 54
+  },
+  "by_status": {
+    "invalid": 50,
+    "unverified": 3,
+    "error": 1
+  },
+  "recent_masked": [
+    {
+      "provider": "OpenAI",
+      "masked": "sk-ma...onal",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...Fhox",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...oBNH",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...Dw4f",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...MMit",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...ghij",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...xxxx",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...kiQQ",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...Bzpt",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...KGpT",
+      "status": "invalid",
+      "source": "github"
+    }
+  ]
+}
