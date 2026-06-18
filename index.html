@@ -178,14 +178,22 @@ async function loadData() {
     document.getElementById('totalFounded').textContent = data.total_founded ?? 0;
     document.getElementById('totalCpm').textContent = data.cpm ?? 0;
 
-    const providerCount = data.by_provider ? Object.keys(data.by_provider).length : 0;
-    const sourceCount = data.by_source ? Object.keys(data.by_source).length : 0;
+    const allProviders = { openai: 0, anthropic: 0, google: 0, replicate: 0, fireworks: 0, huggingface: 0 };
+    const allSources = { github: 0, pastebin: 0 };
+    const allStatuses = { valid: 0, valid_no_credits: 0, invalid: 0, unverified: 0, error: 0 };
+
+    mergeInto(allProviders, data.by_provider || {});
+    mergeInto(allSources, data.by_source || {});
+    mergeInto(allStatuses, data.by_status || {});
+
+    const providerCount = Object.keys(allProviders).filter(k => allProviders[k] > 0).length;
+    const sourceCount = Object.keys(allSources).filter(k => allSources[k] > 0).length;
     document.getElementById('totalSources').textContent = sourceCount;
     document.getElementById('totalProviders').textContent = providerCount;
 
-    renderBars('providerChart', data.by_provider || {}, 'bar-fill');
-    renderBars('sourceChart', data.by_source || {}, 'bar-fill');
-    renderBars('statusChart', data.by_status || {}, 'bar-fill');
+    renderBars('providerChart', allProviders, 'bar-fill');
+    renderBars('sourceChart', allSources, 'bar-fill');
+    renderBars('statusChart', allStatuses, 'bar-fill');
 
     const tbody = document.getElementById('recentTableBody');
     tbody.innerHTML = '';
@@ -210,6 +218,14 @@ async function loadData() {
     document.getElementById('errorDisplay').style.display = 'block';
     document.getElementById('content').style.display = 'block';
     document.getElementById('lastScan').textContent = 'Not yet available';
+  }
+}
+
+function mergeInto(target, source) {
+  for (const key in source) {
+    if (target.hasOwnProperty(key)) {
+      target[key] = source[key];
+    }
   }
 }
 
