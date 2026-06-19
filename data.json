@@ -1,29 +1,65 @@
 {
-  "last_scan": "2026-06-19T09:44:39Z",
+  "last_scan": "2026-06-19T09:46:33Z",
   "status": "success",
-  "total_founded": 2,
-  "cumulative": 4275,
+  "total_founded": 8,
+  "cumulative": 4283,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 1,
-    "discord": 1
+    "aws_secret": 4,
+    "discord": 4
   },
   "by_source": {
-    "gist": 2
+    "gist": 8
   },
   "by_status": {
-    "unverified": 2
+    "unverified": 8
   },
   "recent_masked": [
     {
       "provider": "AWS Secret Key",
-      "masked": "Bioni...gans",
+      "masked": "Goodw...mage",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "Accep...trap",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "Discord Bot",
-      "masked": "Natur...stfi",
+      "masked": "Necro...Wind",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "Magic...stfi",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "MapDr...efix",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "MechC...oksL",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "easyb...thon",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "/tmp/...ps/1",
       "status": "unverified",
       "source": "gist"
     }
