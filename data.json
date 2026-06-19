@@ -1,79 +1,11 @@
 {
-  "last_scan": "2026-06-19T10:36:12Z",
-  "status": "success",
-  "total_founded": 12,
+  "last_scan": "2026-06-19T10:38:07Z",
+  "status": "no_keys_found",
+  "total_founded": 0,
   "cumulative": 4472,
   "cpm": 0,
-  "by_provider": {
-    "aws_secret": 8,
-    "twilio": 4
-  },
-  "by_source": {
-    "gist": 12
-  },
-  "by_status": {
-    "unverified": 12
-  },
-  "recent_masked": [
-    {
-      "provider": "AWS Secret Key",
-      "masked": "ce934...7a4e",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "com/r.../33e",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "PCP=/...nfig",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "sourc...ical",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "sourc...able",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "sourc...sdxf",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "sourc...able",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "IgfSM...EwSO",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "SKhlf...diku",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AC73F...0000",
-      "status": "unverified",
-      "source": "gist"
-    }
-  ]
+  "by_provider": {},
+  "by_source": {},
+  "by_status": {},
+  "recent_masked": []
 }
