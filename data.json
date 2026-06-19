@@ -1,9 +1,9 @@
 {
-  "last_scan": "2026-06-19T16:20:11Z",
+  "last_scan": "2026-06-19T16:20:16Z",
   "status": "success",
-  "total_founded": 14,
-  "cumulative": 9326,
-  "cpm": 0,
+  "total_founded": 0,
+  "cumulative": 5587,
+  "cpm": 1,
   "by_provider": {
     "openai": 128,
     "google": 20,
@@ -12,84 +12,33 @@
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 5088,
+    "twilio": 5084,
     "gitlab_token": 3,
     "stripe_test": 4,
-    "anthropic": 1,
-    "proxy": 10
+    "anthropic": 1
   },
   "by_source": {
     "github": 233,
-    "gist": 5354,
-    "proxy_list": 10,
-    "npm": 4
+    "gist": 5354
   },
   "by_status": {
-    "invalid": 807,
-    "unverified": 4786,
-    "error": 8
+    "invalid": 5577,
+    "error": 9,
+    "valid": 1
   },
   "recent_masked": [
     {
-      "provider": "Proxy Server",
-      "masked": "188.1...8080",
-      "status": "unverified",
-      "source": "proxy_list"
+      "provider": "Twilio",
+      "masked": "ACiaa...ZJBm",
+      "status": "invalid",
+      "source": "gist"
     },
     {
-      "provider": "Proxy Server",
-      "masked": "103.6...8191",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "206.1...4218",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "206.1...4514",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "91.22...3:80",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "122.5...2:80",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "47.79...1080",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "206.1...4534",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "108.1...1:80",
-      "status": "unverified",
-      "source": "proxy_list"
-    },
-    {
-      "provider": "Proxy Server",
-      "masked": "194.1...8080",
-      "status": "unverified",
-      "source": "proxy_list"
+      "provider": "Stripe Test",
+      "masked": "sk_te...9HQH",
+      "status": "valid",
+      "source": "github"
     }
   ],
-  "total_all": 5601
+  "total_all": 5587
 }
