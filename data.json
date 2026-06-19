@@ -1,56 +1,19 @@
 {
-  "last_scan": "2026-06-19T09:46:33Z",
+  "last_scan": "2026-06-19T09:46:34Z",
   "status": "success",
-  "total_founded": 8,
-  "cumulative": 4283,
+  "total_founded": 2,
+  "cumulative": 4277,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 4,
-    "discord": 4
+    "aws_secret": 2
   },
   "by_source": {
-    "gist": 8
+    "gist": 2
   },
   "by_status": {
-    "unverified": 8
+    "unverified": 2
   },
   "recent_masked": [
-    {
-      "provider": "AWS Secret Key",
-      "masked": "Goodw...mage",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "Accep...trap",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Necro...Wind",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Magic...stfi",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "MapDr...efix",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "MechC...oksL",
-      "status": "unverified",
-      "source": "gist"
-    },
     {
       "provider": "AWS Secret Key",
       "masked": "easyb...thon",
