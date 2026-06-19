@@ -1,78 +1,48 @@
 {
-  "last_scan": "2026-06-19T15:46:13Z",
+  "last_scan": "2026-06-19T15:49:54Z",
   "status": "success",
-  "total_founded": 202,
-  "cumulative": 5492,
+  "total_founded": 5,
+  "cumulative": 5497,
   "cpm": 0,
   "by_provider": {
-    "twilio": 202
+    "openai": 5
   },
   "by_source": {
-    "gist": 202
+    "github": 5
   },
   "by_status": {
-    "invalid": 202
+    "invalid": 5
   },
   "recent_masked": [
     {
-      "provider": "Twilio",
-      "masked": "ACqAD...2p1b",
+      "provider": "OpenAI",
+      "masked": "sk-pr...XXXX",
       "status": "invalid",
-      "source": "gist"
+      "source": "github"
     },
     {
-      "provider": "Twilio",
-      "masked": "AChqd...MnBh",
+      "provider": "OpenAI",
+      "masked": "sk-pr...x6fW",
       "status": "invalid",
-      "source": "gist"
+      "source": "github"
     },
     {
-      "provider": "Twilio",
-      "masked": "AC1EA...BEFE",
+      "provider": "OpenAI",
+      "masked": "sk-pr...here",
       "status": "invalid",
-      "source": "gist"
+      "source": "github"
     },
     {
-      "provider": "Twilio",
-      "masked": "AC1EQ...QQFI",
+      "provider": "OpenAI",
+      "masked": "sk-pr...0e3k",
       "status": "invalid",
-      "source": "gist"
+      "source": "github"
     },
     {
-      "provider": "Twilio",
-      "masked": "ACrIW...RySA",
+      "provider": "OpenAI",
+      "masked": "sk-pr...6gRR",
       "status": "invalid",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACSGa...cErL",
-      "status": "invalid",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACjK5...Oys2",
-      "status": "invalid",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AC0ju...blW8",
-      "status": "invalid",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACW6j...GDBM",
-      "status": "invalid",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AC7So...reap",
-      "status": "invalid",
-      "source": "gist"
+      "source": "github"
     }
   ]
 }
