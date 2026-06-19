@@ -1,78 +1,65 @@
 {
-  "last_scan": "2026-06-19T09:48:29Z",
+  "last_scan": "2026-06-19T09:50:41Z",
   "status": "success",
-  "total_founded": 11,
-  "cumulative": 4288,
+  "total_founded": 8,
+  "cumulative": 4296,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 4,
-    "twilio": 3,
-    "discord": 4
+    "aws_secret": 7,
+    "discord": 1
   },
   "by_source": {
-    "gist": 11
+    "gist": 8
   },
   "by_status": {
-    "unverified": 11
+    "unverified": 8
   },
   "recent_masked": [
     {
       "provider": "AWS Secret Key",
-      "masked": "561c3...e71e",
+      "masked": "pbk=w...Eh1R",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "3dd68...db72",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "SKM5M...lhRa",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AChsY...lxJL",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACgMz...1pf9",
+      "masked": "524d1...4ded",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "Goodw...mage",
+      "masked": "Lv0XA...0EBs",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "Accep...trap",
+      "masked": "f3e8b...e31b",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "b6833...b156",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "117e4...4d44",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "03886...ac0f",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "Discord Bot",
-      "masked": "Necro...Wind",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Magic...stfi",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "MapDr...efix",
+      "masked": "NXIoE...Xbew",
       "status": "unverified",
       "source": "gist"
     }
