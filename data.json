@@ -1,35 +1,50 @@
 {
-  "last_scan": "2026-06-19T03:14:32Z",
+  "last_scan": "2026-06-19T04:04:16Z",
   "status": "success",
-  "total_founded": 3,
-  "cumulative": 614,
+  "total_founded": 5,
+  "cumulative": 619,
   "cpm": 0,
   "by_provider": {
-    "openai": 3
+    "aws_secret": 2,
+    "google": 3
   },
   "by_source": {
-    "github": 3
+    "github": 5
   },
   "by_status": {
-    "invalid": 3
+    "unverified": 2,
+    "invalid": 2,
+    "error": 1
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-yo...here",
+      "provider": "AWS Secret Key",
+      "masked": "gates...true",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "127fa...1061",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "Google AI",
+      "masked": "AIzaS...TIwQ",
       "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "OpenAI",
-      "masked": "sk-an...here",
+      "provider": "Google AI",
+      "masked": "AIzaS...ndD8",
       "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "OpenAI",
-      "masked": "sk-an...OKEN",
-      "status": "invalid",
+      "provider": "Google AI",
+      "masked": "AIzaS...A0JA",
+      "status": "error",
       "source": "github"
     }
   ]
