@@ -1,88 +1,31 @@
 {
-  "last_scan": "2026-06-19T10:25:34Z",
+  "last_scan": "2026-06-19T10:26:56Z",
   "status": "success",
-  "total_founded": 22,
-  "cumulative": 4443,
+  "total_founded": 2,
+  "cumulative": 4430,
   "cpm": 0,
   "by_provider": {
-    "openai": 5,
-    "anthropic": 1,
-    "google": 2,
-    "aws_secret": 7,
-    "stripe_test": 1,
-    "aws_key": 1,
-    "discord": 2,
-    "twilio": 3
+    "aws_secret": 1,
+    "discord": 1
   },
   "by_source": {
-    "github": 13,
-    "gist": 9
+    "gist": 2
   },
   "by_status": {
-    "invalid": 6,
-    "error": 2,
-    "unverified": 14
+    "unverified": 2
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-no...mple",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "Anthropic",
-      "masked": "sk-an...HERE",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "Google AI",
-      "masked": "AIzaS...OQWs",
-      "status": "error",
-      "source": "github"
-    },
-    {
       "provider": "AWS Secret Key",
-      "masked": "KEY=e...VCJ9",
+      "masked": "curPa...awns",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
     },
     {
-      "provider": "Stripe Test",
-      "masked": "pk_te...ZXYk",
+      "provider": "Discord Bot",
+      "masked": "Notif...jinN",
       "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "AWS Access Key",
-      "masked": "AKIAW...3M7T",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...EfGh",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...BCDE",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "KEY=e...NiJ9",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "Google AI",
-      "masked": "AIzaS...Z3X8",
-      "status": "error",
-      "source": "github"
+      "source": "gist"
     }
   ]
 }
