@@ -1,24 +1,11 @@
 {
-  "last_scan": "2026-06-19T09:57:03Z",
-  "status": "success",
-  "total_founded": 1,
+  "last_scan": "2026-06-19T09:58:51Z",
+  "status": "no_keys_found",
+  "total_founded": 0,
   "cumulative": 4349,
   "cpm": 0,
-  "by_provider": {
-    "openai": 1
-  },
-  "by_source": {
-    "gist": 1
-  },
-  "by_status": {
-    "invalid": 1
-  },
-  "recent_masked": [
-    {
-      "provider": "OpenAI",
-      "masked": "sk-an...stry",
-      "status": "invalid",
-      "source": "gist"
-    }
-  ]
+  "by_provider": {},
+  "by_source": {},
+  "by_status": {},
+  "recent_masked": []
 }
