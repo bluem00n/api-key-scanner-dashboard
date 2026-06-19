@@ -191,8 +191,8 @@ async function loadData() {
 
     const providerCount = Object.keys(allProviders).filter(k => allProviders[k] > 0).length;
     const sourceCount = Object.keys(allSources).filter(k => allSources[k] > 0).length;
-    document.getElementById('totalSources').textContent = sourceCount;
-    document.getElementById('totalProviders').textContent = providerCount;
+    
+    
 
     renderBars('providerChart', allProviders, 'bar-fill');
     renderBars('sourceChart', allSources, 'bar-fill');
