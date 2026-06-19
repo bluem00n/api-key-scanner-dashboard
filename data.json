@@ -1,22 +1,80 @@
 {
-  "last_scan": "2026-06-19T04:51:24Z",
+  "last_scan": "2026-06-19T06:04:28Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 620,
+  "total_founded": 11,
+  "cumulative": 631,
   "cpm": 0,
   "by_provider": {
-    "openai": 1
+    "openai": 7,
+    "aws_secret": 1,
+    "gitlab_token": 2,
+    "google": 1
   },
   "by_source": {
-    "github": 1
+    "github": 11
   },
   "by_status": {
-    "invalid": 1
+    "invalid": 8,
+    "unverified": 3
   },
   "recent_masked": [
     {
       "provider": "OpenAI",
-      "masked": "sk-yo...here",
+      "masked": "sk-or...here",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-yo...-key",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-yo...-key",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-sh...-key",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...xxxx",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-eJ...b1U-",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "com/k...ster",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "GitLab Token",
+      "masked": "glpat...tmqk",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "GitLab Token",
+      "masked": "glpat...VRfR",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "Google AI",
+      "masked": "AIzaS...GTMw",
       "status": "invalid",
       "source": "github"
     }
