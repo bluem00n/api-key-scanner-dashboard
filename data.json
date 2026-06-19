@@ -1,76 +1,77 @@
 {
-  "last_scan": "2026-06-19T15:24:57Z",
+  "last_scan": "2026-06-19T15:28:23Z",
   "status": "success",
-  "total_founded": 134,
-  "cumulative": 5163,
+  "total_founded": 126,
+  "cumulative": 5289,
   "cpm": 0,
   "by_provider": {
-    "twilio": 134
+    "twilio": 125,
+    "openai": 1
   },
   "by_source": {
-    "gist": 134
+    "gist": 126
   },
   "by_status": {
-    "invalid": 134
+    "invalid": 126
   },
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACH5B...p9v2",
+      "masked": "ACqgA...gr4W",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "AC0lE...ASUV",
+      "masked": "ACEA7...AAAA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAUF...MDQw",
+      "masked": "ACh4K...mDgA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAwQ...IDAA",
+      "masked": "ACqvV...AAAq",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAgM...AAAg",
+      "masked": "ACkYK...g0K8",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAwQ...IDBA",
+      "masked": "ACEAQ...AAAA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACEQM...D9Qg",
+      "masked": "ACKAQ...AAAA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACEQM...POEA",
+      "masked": "ACSAQ...AAAA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAwQ...IDBA",
+      "masked": "ACAAD...IyoA",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACAQI...FBUQ",
+      "masked": "ACWAQ...AAAA",
       "status": "invalid",
       "source": "gist"
     }
