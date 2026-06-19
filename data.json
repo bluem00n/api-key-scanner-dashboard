@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-19T11:34:30Z",
+  "last_scan": "2026-06-19T11:37:26Z",
   "status": "success",
   "total_founded": 1,
-  "cumulative": 4865,
+  "cumulative": 4866,
   "cpm": 0,
   "by_provider": {
     "aws_secret": 1
@@ -16,7 +16,7 @@
   "recent_masked": [
     {
       "provider": "AWS Secret Key",
-      "masked": "f7e4e...5a42",
+      "masked": "1/plu...oner",
       "status": "unverified",
       "source": "gist"
     }
