@@ -1,84 +1,79 @@
 {
-  "last_scan": "2026-06-19T10:30:12Z",
+  "last_scan": "2026-06-19T10:32:00Z",
   "status": "success",
-  "total_founded": 42,
-  "cumulative": 4443,
+  "total_founded": 17,
+  "cumulative": 4460,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 5,
-    "openai": 32,
-    "google": 2,
-    "stripe_test": 2,
-    "huggingface": 1
+    "aws_secret": 1,
+    "twilio": 16
   },
   "by_source": {
-    "github": 42
+    "gist": 17
   },
   "by_status": {
-    "unverified": 8,
-    "invalid": 33,
-    "error": 1
+    "unverified": 17
   },
   "recent_masked": [
     {
       "provider": "AWS Secret Key",
-      "masked": "packa...ache",
+      "masked": "801fc...b444",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
     },
     {
-      "provider": "OpenAI",
-      "masked": "sk-or...573c",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...b83d",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...13a0",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "KEY=e...VCJ9",
+      "provider": "Twilio",
+      "masked": "ACiil...GSUa",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
     },
     {
-      "provider": "OpenAI",
-      "masked": "sk-or...4c3e",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...10da",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...a0b1",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...6eb9",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "b3680...182f",
+      "provider": "Twilio",
+      "masked": "ACiil...GiSa",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...GiUY",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...pGca",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...WCeb",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...mZgY",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...JFma",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...GhiZ",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACiil...pxoY",
+      "status": "unverified",
+      "source": "gist"
     }
   ]
 }
