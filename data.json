@@ -1,82 +1,86 @@
 {
-  "last_scan": "2026-06-19T08:40:23Z",
+  "last_scan": "2026-06-19T09:18:53Z",
   "status": "success",
-  "total_founded": 18,
-  "cumulative": 1442,
+  "total_founded": 2811,
+  "cumulative": 4253,
   "cpm": 0,
   "by_provider": {
+    "openai": 12,
+    "aws_secret": 92,
     "google": 1,
-    "aws_secret": 8,
-    "discord": 5,
-    "twilio": 2,
-    "stripe_test": 1,
-    "openai": 1
+    "huggingface": 1,
+    "gitlab_token": 1,
+    "twilio": 2689,
+    "discord": 14,
+    "aws_key": 1
   },
   "by_source": {
-    "github": 18
+    "github": 17,
+    "gist": 2794
   },
   "by_status": {
-    "invalid": 2,
-    "unverified": 16
+    "invalid": 12,
+    "unverified": 2798,
+    "error": 1
   },
   "recent_masked": [
     {
-      "provider": "Google AI",
-      "masked": "AIzaS...nmb4",
+      "provider": "OpenAI",
+      "masked": "sk-pr...Bedh",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...5Zz3",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...EK1L",
       "status": "invalid",
       "source": "github"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "7SA38...Lcdj",
+      "masked": "WBc6Y...9gy3",
       "status": "unverified",
       "source": "github"
     },
     {
-      "provider": "AWS Secret Key",
-      "masked": "D6A3D...CBBE",
-      "status": "unverified",
+      "provider": "OpenAI",
+      "masked": "sk-xx...xxxx",
+      "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "AWS Secret Key",
-      "masked": "qURZi...Lcdj",
-      "status": "unverified",
+      "provider": "OpenAI",
+      "masked": "sk-pr...jHgA",
+      "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "AWS Secret Key",
-      "masked": "2e177...d521",
-      "status": "unverified",
+      "provider": "OpenAI",
+      "masked": "sk-pr...ABCD",
+      "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "Discord Bot",
-      "masked": "Mlrkw...spri",
-      "status": "unverified",
+      "provider": "OpenAI",
+      "masked": "sk-an...aabb",
+      "status": "invalid",
       "source": "github"
     },
     {
-      "provider": "Discord Bot",
-      "masked": "ND1ZM...spri",
-      "status": "unverified",
+      "provider": "Google AI",
+      "masked": "AIzaS...ewQe",
+      "status": "error",
       "source": "github"
     },
     {
-      "provider": "Discord Bot",
-      "masked": "MoRsX...spri",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "MkwQN...spri",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "NOlhP...spri",
+      "provider": "HuggingFace",
+      "masked": "hf_ab...5678",
       "status": "unverified",
       "source": "github"
     }
