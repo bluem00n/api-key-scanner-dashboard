@@ -1,11 +1,84 @@
 {
-  "last_scan": "2026-06-19T10:29:59Z",
-  "status": "no_keys_found",
-  "total_founded": 0,
+  "last_scan": "2026-06-19T10:30:12Z",
+  "status": "success",
+  "total_founded": 42,
   "cumulative": 4443,
   "cpm": 0,
-  "by_provider": {},
-  "by_source": {},
-  "by_status": {},
-  "recent_masked": []
+  "by_provider": {
+    "aws_secret": 5,
+    "openai": 32,
+    "google": 2,
+    "stripe_test": 2,
+    "huggingface": 1
+  },
+  "by_source": {
+    "github": 42
+  },
+  "by_status": {
+    "unverified": 8,
+    "invalid": 33,
+    "error": 1
+  },
+  "recent_masked": [
+    {
+      "provider": "AWS Secret Key",
+      "masked": "packa...ache",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...573c",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...b83d",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...13a0",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "KEY=e...VCJ9",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...4c3e",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...10da",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...a0b1",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-or...6eb9",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "b3680...182f",
+      "status": "unverified",
+      "source": "github"
+    }
+  ]
 }
