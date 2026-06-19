@@ -1,22 +1,76 @@
 {
-  "last_scan": "2026-06-19T15:42:12Z",
+  "last_scan": "2026-06-19T15:46:13Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 5290,
+  "total_founded": 202,
+  "cumulative": 5492,
   "cpm": 0,
   "by_provider": {
-    "openai": 1
+    "twilio": 202
   },
   "by_source": {
-    "gist": 1
+    "gist": 202
   },
   "by_status": {
-    "invalid": 1
+    "invalid": 202
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-ai...5275",
+      "provider": "Twilio",
+      "masked": "ACqAD...2p1b",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AChqd...MnBh",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC1EA...BEFE",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC1EQ...QQFI",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACrIW...RySA",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACSGa...cErL",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACjK5...Oys2",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC0ju...blW8",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACW6j...GDBM",
+      "status": "invalid",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC7So...reap",
       "status": "invalid",
       "source": "gist"
     }
