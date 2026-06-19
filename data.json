@@ -1,84 +1,30 @@
 {
-  "last_scan": "2026-06-19T01:46:28Z",
+  "last_scan": "2026-06-19T02:34:24Z",
   "status": "success",
-  "total_founded": 170,
-  "cumulative": 609,
+  "total_founded": 2,
+  "cumulative": 611,
   "cpm": 0,
   "by_provider": {
-    "openai": 5,
-    "google": 1,
-    "github_token": 7,
-    "aws_secret": 29,
-    "twilio": 123,
-    "discord": 5
+    "google": 2
   },
   "by_source": {
-    "github": 21,
-    "gist": 149
+    "github": 2
   },
   "by_status": {
-    "invalid": 6,
-    "unverified": 164
+    "invalid": 1,
+    "error": 1
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-or...6466",
+      "provider": "Google AI",
+      "masked": "AIzaS...QhIs",
       "status": "invalid",
       "source": "github"
     },
     {
       "provider": "Google AI",
-      "masked": "AIzaS...d1F8",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...6753",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...d7ec",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-or...here",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "GitHub Token",
-      "masked": "ghp_u...ycIO",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "GitHub Token",
-      "masked": "ghp_n...2nBX",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "GitHub Token",
-      "masked": "ghp_d...hjKa",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "GitHub Token",
-      "masked": "ghp_N...pEPc",
-      "status": "unverified",
-      "source": "github"
-    },
-    {
-      "provider": "GitHub Token",
-      "masked": "githu...vldw",
-      "status": "unverified",
+      "masked": "AIzaS...d638",
+      "status": "error",
       "source": "github"
     }
   ]
