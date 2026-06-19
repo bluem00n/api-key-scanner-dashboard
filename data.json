@@ -1,31 +1,11 @@
 {
-  "last_scan": "2026-06-19T10:26:56Z",
-  "status": "success",
-  "total_founded": 2,
-  "cumulative": 4430,
+  "last_scan": "2026-06-19T10:28:05Z",
+  "status": "no_keys_found",
+  "total_founded": 0,
+  "cumulative": 4443,
   "cpm": 0,
-  "by_provider": {
-    "aws_secret": 1,
-    "discord": 1
-  },
-  "by_source": {
-    "gist": 2
-  },
-  "by_status": {
-    "unverified": 2
-  },
-  "recent_masked": [
-    {
-      "provider": "AWS Secret Key",
-      "masked": "curPa...awns",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Notif...jinN",
-      "status": "unverified",
-      "source": "gist"
-    }
-  ]
+  "by_provider": {},
+  "by_source": {},
+  "by_status": {},
+  "recent_masked": []
 }
