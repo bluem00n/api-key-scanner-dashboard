@@ -1,88 +1,67 @@
 {
-  "last_scan": "2026-06-19T09:18:58Z",
+  "last_scan": "2026-06-19T09:25:08Z",
   "status": "success",
-  "total_founded": 2811,
-  "cumulative": 4253,
+  "total_founded": 8,
+  "cumulative": 4261,
   "cpm": 0,
   "by_provider": {
-    "openai": 12,
-    "aws_secret": 92,
-    "google": 1,
-    "huggingface": 1,
-    "gitlab_token": 1,
-    "twilio": 2689,
-    "discord": 14,
-    "aws_key": 1
+    "discord": 5,
+    "aws_secret": 3
   },
   "by_source": {
-    "github": 17,
-    "gist": 2794
+    "gist": 8
   },
   "by_status": {
-    "invalid": 12,
-    "unverified": 2798,
-    "error": 1
+    "unverified": 8
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-pr...Bedh",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...5Zz3",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...EK1L",
-      "status": "invalid",
-      "source": "github"
+      "provider": "Discord Bot",
+      "masked": "Nucha...stfi",
+      "status": "unverified",
+      "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "WBc6Y...9gy3",
+      "masked": "PutTe...gnal",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
     },
     {
-      "provider": "OpenAI",
-      "masked": "sk-xx...xxxx",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...jHgA",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...ABCD",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-an...aabb",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "Google AI",
-      "masked": "AIzaS...ewQe",
-      "status": "error",
-      "source": "github"
-    },
-    {
-      "provider": "HuggingFace",
-      "masked": "hf_ab...5678",
+      "provider": "AWS Secret Key",
+      "masked": "Range...nent",
       "status": "unverified",
-      "source": "github"
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "Brave...etup",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "Nivar...ntro",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "Nivar...gist",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "Nivar...yBlo",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Discord Bot",
+      "masked": "Nivar...fres",
+      "status": "unverified",
+      "source": "gist"
     }
   ]
 }
