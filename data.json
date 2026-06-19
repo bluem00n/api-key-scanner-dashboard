@@ -1,11 +1,24 @@
 {
-  "last_scan": "2026-06-19T10:50:21Z",
-  "status": "no_keys_found",
-  "total_founded": 0,
-  "cumulative": 4764,
+  "last_scan": "2026-06-19T10:52:35Z",
+  "status": "success",
+  "total_founded": 1,
+  "cumulative": 4765,
   "cpm": 0,
-  "by_provider": {},
-  "by_source": {},
-  "by_status": {},
-  "recent_masked": []
+  "by_provider": {
+    "discord": 1
+  },
+  "by_source": {
+    "gist": 1
+  },
+  "by_status": {
+    "unverified": 1
+  },
+  "recent_masked": [
+    {
+      "provider": "Discord Bot",
+      "masked": "NPERe...rmon",
+      "status": "unverified",
+      "source": "gist"
+    }
+  ]
 }
