@@ -1,46 +1,35 @@
 {
-  "last_scan": "2026-06-19T15:49:54Z",
+  "last_scan": "2026-06-19T15:53:26Z",
   "status": "success",
-  "total_founded": 5,
-  "cumulative": 5497,
+  "total_founded": 3,
+  "cumulative": 5500,
   "cpm": 0,
   "by_provider": {
-    "openai": 5
+    "openai": 2,
+    "twilio": 1
   },
   "by_source": {
-    "github": 5
+    "github": 3
   },
   "by_status": {
-    "invalid": 5
+    "invalid": 3
   },
   "recent_masked": [
     {
       "provider": "OpenAI",
-      "masked": "sk-pr...XXXX",
+      "masked": "sk-pr...OLrO",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACf93...042d",
       "status": "invalid",
       "source": "github"
     },
     {
       "provider": "OpenAI",
-      "masked": "sk-pr...x6fW",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...here",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...0e3k",
-      "status": "invalid",
-      "source": "github"
-    },
-    {
-      "provider": "OpenAI",
-      "masked": "sk-pr...6gRR",
+      "masked": "sk-pr...VQxb",
       "status": "invalid",
       "source": "github"
     }
