@@ -1,62 +1,88 @@
 {
-  "last_scan": "2026-06-19T10:24:45Z",
+  "last_scan": "2026-06-19T10:25:34Z",
   "status": "success",
-  "total_founded": 7,
-  "cumulative": 4428,
+  "total_founded": 22,
+  "cumulative": 4443,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 3,
-    "discord": 1,
+    "openai": 5,
+    "anthropic": 1,
+    "google": 2,
+    "aws_secret": 7,
+    "stripe_test": 1,
+    "aws_key": 1,
+    "discord": 2,
     "twilio": 3
   },
   "by_source": {
-    "gist": 7
+    "github": 13,
+    "gist": 9
   },
   "by_status": {
-    "unverified": 7
+    "invalid": 6,
+    "error": 2,
+    "unverified": 14
   },
   "recent_masked": [
     {
-      "provider": "AWS Secret Key",
-      "masked": "6ab2a...5f7b",
-      "status": "unverified",
-      "source": "gist"
+      "provider": "OpenAI",
+      "masked": "sk-no...mple",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "Anthropic",
+      "masked": "sk-an...HERE",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "Google AI",
+      "masked": "AIzaS...OQWs",
+      "status": "error",
+      "source": "github"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "Qb0LZ...CQkM",
+      "masked": "KEY=e...VCJ9",
       "status": "unverified",
-      "source": "gist"
+      "source": "github"
+    },
+    {
+      "provider": "Stripe Test",
+      "masked": "pk_te...ZXYk",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "AWS Access Key",
+      "masked": "AKIAW...3M7T",
+      "status": "unverified",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...EfGh",
+      "status": "invalid",
+      "source": "github"
+    },
+    {
+      "provider": "OpenAI",
+      "masked": "sk-pr...BCDE",
+      "status": "invalid",
+      "source": "github"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "h45fp...RjoC",
+      "masked": "KEY=e...NiJ9",
       "status": "unverified",
-      "source": "gist"
+      "source": "github"
     },
     {
-      "provider": "Discord Bot",
-      "masked": "NOOJf...48PG",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACSk2...wQ2e",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACFvB...oaQb",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACSx8...5sLC",
-      "status": "unverified",
-      "source": "gist"
+      "provider": "Google AI",
+      "masked": "AIzaS...Z3X8",
+      "status": "error",
+      "source": "github"
     }
   ]
 }
