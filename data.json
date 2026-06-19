@@ -1,12 +1,12 @@
 {
-  "last_scan": "2026-06-19T09:25:09Z",
+  "last_scan": "2026-06-19T09:32:05Z",
   "status": "success",
   "total_founded": 8,
-  "cumulative": 4261,
+  "cumulative": 4269,
   "cpm": 0,
   "by_provider": {
-    "discord": 5,
-    "aws_secret": 3
+    "twilio": 7,
+    "aws_secret": 1
   },
   "by_source": {
     "gist": 8
@@ -16,50 +16,50 @@
   },
   "recent_masked": [
     {
-      "provider": "Discord Bot",
-      "masked": "Nucha...stfi",
+      "provider": "Twilio",
+      "masked": "ACAgA...ABle",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACFAQ...AAAA",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACeIC...1xMv",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACWBg...AZXh",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACgBA...BbQ2",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACFAQ...AZXh",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC0gb...zL21",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "PutTe...gnal",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "Range...nent",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "Brave...etup",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Nivar...ntro",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Nivar...gist",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Nivar...yBlo",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "Discord Bot",
-      "masked": "Nivar...fres",
+      "masked": "canRe...ders",
       "status": "unverified",
       "source": "gist"
     }
