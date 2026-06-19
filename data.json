@@ -1,11 +1,79 @@
 {
-  "last_scan": "2026-06-19T10:44:13Z",
-  "status": "no_keys_found",
-  "total_founded": 0,
-  "cumulative": 4474,
+  "last_scan": "2026-06-19T10:46:23Z",
+  "status": "success",
+  "total_founded": 290,
+  "cumulative": 4764,
   "cpm": 0,
-  "by_provider": {},
-  "by_source": {},
-  "by_status": {},
-  "recent_masked": []
+  "by_provider": {
+    "aws_secret": 3,
+    "twilio": 287
+  },
+  "by_source": {
+    "gist": 290
+  },
+  "by_status": {
+    "unverified": 290
+  },
+  "recent_masked": [
+    {
+      "provider": "AWS Secret Key",
+      "masked": "03d4f...f2bc",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "AWS Secret Key",
+      "masked": "cfuvi...BZLw",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SKbtK...33dp",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SKXAf...EsPg",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SK4Es...YSjU",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SKGct...DA3Z",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SKLHf...l9tz",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACpgN...3kqe",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACLcP...Ta0S",
+      "status": "unverified",
+      "source": "gist"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "SKlaM...giWQ",
+      "status": "unverified",
+      "source": "gist"
+    }
+  ]
 }
