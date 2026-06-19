@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-06-19T23:02:04Z",
+  "last_scan": "2026-06-19T23:25:13Z",
   "status": "success",
-  "total_founded": 3,
-  "cumulative": 11117,
+  "total_founded": 6,
+  "cumulative": 11159,
   "cpm": 1,
   "by_provider": {
     "openai": 148,
-    "google": 31,
+    "google": 32,
     "huggingface": 4,
     "aws_secret": 270,
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 6773,
+    "twilio": 6814,
     "gitlab_token": 3,
     "stripe_test": 4,
     "anthropic": 1,
@@ -22,22 +22,23 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 20,
+    "proxy_list": 320958,
     "npm": 5,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 378,
+    "GitHub Events": 400,
     "Proxy Lists": 63,
-    "Gist": 991,
+    "Gist": 1010,
     "Kaggle": 1,
     "Colab": 4,
     "Hacker News": 1,
     "4chan /g/": 1,
-    "GreasyFork": 35,
-    "GH Archive": 12
+    "GreasyFork": 36,
+    "GH Archive": 12,
+    "proxy_working": 4160
   },
   "by_status": {
-    "invalid": 2522,
+    "invalid": 2564,
     "unverified": 4860,
     "error": 9,
     "valid": 1
@@ -45,24 +46,43 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACsk5...Q67j",
+      "masked": "AC0ZD...Ioit",
       "status": "invalid",
       "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "AC0i0...9xor",
+      "masked": "ACbXn...2Xc6",
       "status": "invalid",
       "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "ACw1C...faub",
+      "masked": "ACMWb...f2GI",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACLkv...QTGj",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC92y...iaR0",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACg5l...O3pl",
       "status": "invalid",
       "source": "GitHub Events"
     }
   ],
-  "total_all": 7392,
-  "proxy_count": 319933,
-  "proxy_working": 3946
+  "total_all": 7434,
+  "proxy_count": 320958,
+  "proxy_working": 4160,
+  "proxy_updated": "2026-06-19T23:30:41Z"
 }
