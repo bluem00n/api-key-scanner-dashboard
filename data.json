@@ -1,76 +1,77 @@
 {
-  "last_scan": "2026-06-19T15:03:35Z",
+  "last_scan": "2026-06-19T15:07:17Z",
   "status": "success",
-  "total_founded": 94,
-  "cumulative": 4974,
+  "total_founded": 55,
+  "cumulative": 5029,
   "cpm": 0,
   "by_provider": {
-    "twilio": 94
+    "openai": 1,
+    "twilio": 54
   },
   "by_source": {
-    "gist": 94
+    "gist": 55
   },
   "by_status": {
-    "invalid": 94
+    "invalid": 55
   },
   "recent_masked": [
     {
-      "provider": "Twilio",
-      "masked": "ACOG1...XRwb",
+      "provider": "OpenAI",
+      "masked": "sk-Se...hmus",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACXBI...EQVR",
+      "masked": "ACiil...cmmJ",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACnX9...128T",
+      "masked": "ACiil...saZB",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "AC9dK...H5sG",
+      "masked": "ACiil...mYGR",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACdiI...9n2f",
+      "masked": "ACiil...slpZ",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "AC08I...Glip",
+      "masked": "ACiil...WamK",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACl6L...JuAd",
+      "masked": "ACiil...klmi",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACpJw...JXjq",
+      "masked": "ACiil...eamC",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACm3E...skfg",
+      "masked": "ACiil...YZmm",
       "status": "invalid",
       "source": "gist"
     },
     {
       "provider": "Twilio",
-      "masked": "ACGOh...wG03",
+      "masked": "ACiil...qaJp",
       "status": "invalid",
       "source": "gist"
     }
