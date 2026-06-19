@@ -1,34 +1,28 @@
 {
-  "last_scan": "2026-06-19T10:18:19Z",
+  "last_scan": "2026-06-19T10:20:21Z",
   "status": "success",
-  "total_founded": 3,
-  "cumulative": 4397,
+  "total_founded": 2,
+  "cumulative": 4399,
   "cpm": 0,
   "by_provider": {
-    "aws_secret": 3
+    "aws_secret": 2
   },
   "by_source": {
-    "gist": 3
+    "gist": 2
   },
   "by_status": {
-    "unverified": 3
+    "unverified": 2
   },
   "recent_masked": [
     {
       "provider": "AWS Secret Key",
-      "masked": "D15AD...4B58",
+      "masked": "com/a...list",
       "status": "unverified",
       "source": "gist"
     },
     {
       "provider": "AWS Secret Key",
-      "masked": "A25BD...5C69",
-      "status": "unverified",
-      "source": "gist"
-    },
-    {
-      "provider": "AWS Secret Key",
-      "masked": "Thing...rate",
+      "masked": "com/s...list",
       "status": "unverified",
       "source": "gist"
     }
