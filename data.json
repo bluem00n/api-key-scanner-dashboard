@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-20T11:14:49Z",
+  "last_scan": "2026-06-20T11:44:55Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 16357,
+  "total_founded": 6,
+  "cumulative": 16396,
   "cpm": 1,
   "by_provider": {
     "openai": 167,
@@ -12,7 +12,7 @@
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 11981,
+    "twilio": 12020,
     "gitlab_token": 3,
     "stripe_test": 4,
     "anthropic": 1,
@@ -26,35 +26,67 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 20,
+    "proxy_list": 338973,
     "npm": 5,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 1255,
+    "GitHub Events": 1292,
     "Proxy Lists": 65,
-    "Gist": 5265,
+    "Gist": 5266,
     "Kaggle": 1,
     "Colab": 4,
     "Hacker News": 1,
     "4chan /g/": 1,
-    "GreasyFork": 122,
-    "GH Archive": 12
+    "GreasyFork": 123,
+    "GH Archive": 12,
+    "proxy_working": 8520
   },
   "by_status": {
-    "invalid": 7760,
+    "invalid": 7799,
     "unverified": 4862,
     "error": 9,
     "valid": 1
   },
   "recent_masked": [
     {
-      "provider": "Replicate",
-      "masked": "r8_17...TBMA",
+      "provider": "Twilio",
+      "masked": "ACsdB...XWcZ",
       "status": "invalid",
-      "source": "GreasyFork"
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACejI...GPwB",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACnfQ...GbcE",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACOEi...Gomg",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACnBZ...XgpD",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACEYC...L2RC",
+      "status": "invalid",
+      "source": "GitHub Events"
     }
   ],
-  "total_all": 12632,
-  "proxy_count": 338587,
-  "proxy_working": 8439
+  "total_all": 12671,
+  "proxy_count": 338973,
+  "proxy_working": 8520,
+  "proxy_updated": "2026-06-20T11:45:13Z"
 }
