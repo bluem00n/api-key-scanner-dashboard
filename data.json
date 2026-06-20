@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-20T19:55:16Z",
+  "last_scan": "2026-06-20T20:20:26Z",
   "status": "success",
-  "total_founded": 225,
-  "cumulative": 23608,
+  "total_founded": 1,
+  "cumulative": 23766,
   "cpm": 1,
   "by_provider": {
     "openai": 174,
@@ -12,7 +12,7 @@
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 19211,
+    "twilio": 19369,
     "gitlab_token": 3,
     "stripe_test": 5,
     "anthropic": 1,
@@ -26,22 +26,23 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 20,
+    "proxy_list": 344414,
     "npm": 5,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 1838,
+    "GitHub Events": 1849,
     "Proxy Lists": 73,
-    "Gist": 11869,
+    "Gist": 12015,
     "Kaggle": 1,
     "Colab": 4,
     "Hacker News": 1,
     "4chan /g/": 1,
-    "GreasyFork": 178,
-    "GH Archive": 12
+    "GreasyFork": 179,
+    "GH Archive": 12,
+    "proxy_working": 9577
   },
   "by_status": {
-    "invalid": 15001,
+    "invalid": 15159,
     "unverified": 4870,
     "error": 11,
     "valid": 1
@@ -49,66 +50,13 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACMPQ...ZFFs",
+      "masked": "ACe3o...oqQZ",
       "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACdyV...vOhD",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACLMA...NwAi",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACtZf...N9A6",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACqFR...tP5C",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACgVQ...ujwo",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AChJC...7tD5",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACcA6...rEGE",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACVQV...MBAp",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACIPk...KHyV",
-      "status": "invalid",
-      "source": "Gist"
+      "source": "GreasyFork"
     }
   ],
-  "total_all": 19883,
-  "proxy_count": 344189,
-  "proxy_working": 9525
+  "total_all": 20041,
+  "proxy_count": 344414,
+  "proxy_working": 9577,
+  "proxy_updated": "2026-06-20T20:21:49Z"
 }
