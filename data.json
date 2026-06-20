@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-06-20T14:18:05Z",
+  "last_scan": "2026-06-20T14:45:10Z",
   "status": "success",
-  "total_founded": 7,
-  "cumulative": 19864,
+  "total_founded": 1,
+  "cumulative": 19924,
   "cpm": 1,
   "by_provider": {
-    "openai": 169,
-    "google": 32,
+    "openai": 170,
+    "google": 33,
     "huggingface": 4,
     "aws_secret": 270,
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 15485,
+    "twilio": 15543,
     "gitlab_token": 3,
     "stripe_test": 4,
     "anthropic": 1,
@@ -30,18 +30,18 @@
     "npm": 5,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 1480,
+    "GitHub Events": 1518,
     "Proxy Lists": 65,
-    "Gist": 8529,
+    "Gist": 8547,
     "Kaggle": 1,
     "Colab": 4,
     "Hacker News": 1,
     "4chan /g/": 1,
-    "GreasyFork": 140,
+    "GreasyFork": 144,
     "GH Archive": 12
   },
   "by_status": {
-    "invalid": 11267,
+    "invalid": 11327,
     "unverified": 4862,
     "error": 9,
     "valid": 1
@@ -49,48 +49,12 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACjiz...M0tn",
+      "masked": "AC4Cx...7oky",
       "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACBCU...Pe7J",
-      "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AClwI...7Ueu",
-      "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACY4P...vakg",
-      "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACvRq...2dJF",
-      "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACSQN...UkMV",
-      "status": "invalid",
-      "source": "GitHub Events"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACpzn...PZb3",
-      "status": "invalid",
-      "source": "GitHub Events"
+      "source": "GreasyFork"
     }
   ],
-  "total_all": 16139,
-  "proxy_count": 340431,
-  "proxy_working": 8819
+  "total_all": 16199,
+  "proxy_count": 340652,
+  "proxy_working": 8855
 }
