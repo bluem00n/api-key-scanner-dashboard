@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-21T18:49:26Z",
+  "last_scan": "2026-06-21T19:16:24Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 33446,
+  "total_founded": 5,
+  "cumulative": 33527,
   "cpm": 1,
   "by_provider": {
     "openai": 195,
@@ -12,7 +12,7 @@
     "github_token": 11,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 29001,
+    "twilio": 29082,
     "gitlab_token": 3,
     "stripe_test": 6,
     "anthropic": 1,
@@ -27,22 +27,23 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 20,
+    "proxy_list": 354411,
     "npm": 7,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 3677,
+    "GitHub Events": 3718,
     "Proxy Lists": 75,
-    "Gist": 19715,
+    "Gist": 19753,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 1,
-    "GreasyFork": 326,
-    "GH Archive": 12
+    "GreasyFork": 328,
+    "GH Archive": 12,
+    "proxy_working": 11334
   },
   "by_status": {
-    "invalid": 24828,
+    "invalid": 24909,
     "unverified": 4872,
     "error": 20,
     "valid": 1
@@ -50,12 +51,37 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "AC5I7...VIRq",
+      "masked": "AC5qm...ezvw",
       "status": "invalid",
-      "source": "GreasyFork"
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACJBM...2tZx",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACk86...owiz",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACxtT...sDpL",
+      "status": "invalid",
+      "source": "GitHub Events"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACz2K...cyiM",
+      "status": "invalid",
+      "source": "GitHub Events"
     }
   ],
-  "total_all": 29721,
-  "proxy_count": 354221,
-  "proxy_working": 11310
+  "total_all": 29802,
+  "proxy_count": 354411,
+  "proxy_working": 11334,
+  "proxy_updated": "2026-06-21T19:17:31Z"
 }
