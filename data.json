@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-06-23T16:38:47Z",
+  "last_scan": "2026-06-23T17:09:34Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 64098,
+  "total_founded": 3,
+  "cumulative": 64451,
   "cpm": 3,
   "by_provider": {
-    "openai": 238,
-    "google": 46,
+    "openai": 240,
+    "google": 47,
     "huggingface": 13,
     "aws_secret": 275,
     "github_token": 12,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 59493,
+    "twilio": 59843,
     "gitlab_token": 3,
     "stripe_test": 6,
     "anthropic": 1,
@@ -28,37 +28,47 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 382549,
+    "proxy_list": 20,
     "npm": 8,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 5649,
+    "GitHub Events": 5653,
     "Proxy Lists": 88,
-    "Gist": 48093,
+    "Gist": 48437,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 2,
-    "GreasyFork": 613,
-    "GH Archive": 12,
-    "proxy_working": 18393
+    "GreasyFork": 618,
+    "GH Archive": 12
   },
   "by_status": {
-    "invalid": 55455,
+    "invalid": 55807,
     "unverified": 4885,
-    "error": 30,
+    "error": 31,
     "valid": 3
   },
   "recent_masked": [
     {
-      "provider": "Fireworks AI",
-      "masked": "fw_3q...L3Dg",
-      "status": "error",
+      "provider": "Twilio",
+      "masked": "ACfCs...eUar",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACaVy...jUG7",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AChRu...Sf2l",
+      "status": "invalid",
       "source": "GreasyFork"
     }
   ],
-  "total_all": 60373,
-  "proxy_count": 382549,
-  "proxy_working": 18393,
-  "proxy_updated": "2026-06-23T16:39:53Z"
+  "total_all": 60726,
+  "proxy_count": 382886,
+  "proxy_working": 18495
 }
