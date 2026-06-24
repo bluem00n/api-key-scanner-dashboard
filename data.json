@@ -1,23 +1,23 @@
 {
-  "last_scan": "2026-06-24T13:58:26Z",
+  "last_scan": "2026-06-24T14:29:37Z",
   "status": "success",
-  "total_founded": 3,
-  "cumulative": 75221,
+  "total_founded": 2,
+  "cumulative": 75487,
   "cpm": 3,
   "by_provider": {
-    "openai": 267,
+    "openai": 270,
     "google": 49,
     "huggingface": 14,
     "aws_secret": 275,
     "github_token": 14,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 70569,
+    "twilio": 70831,
     "gitlab_token": 3,
     "stripe_test": 6,
     "anthropic": 1,
     "proxy": 108,
-    "fireworks": 25,
+    "fireworks": 26,
     "cohere": 16,
     "elevenlabs": 64,
     "groq": 3,
@@ -28,49 +28,41 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 395342,
+    "proxy_list": 20,
     "npm": 9,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 5756,
+    "GitHub Events": 5761,
     "Proxy Lists": 88,
-    "Gist": 58948,
+    "Gist": 59204,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 2,
-    "GreasyFork": 773,
-    "GH Archive": 12,
-    "proxy_working": 21990
+    "GreasyFork": 778,
+    "GH Archive": 12
   },
   "by_status": {
-    "invalid": 66570,
+    "invalid": 66835,
     "unverified": 4885,
-    "error": 38,
+    "error": 39,
     "valid": 3
   },
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "AC3B1...8872",
+      "masked": "ACEG7...zWvx",
       "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "AC14B...2306",
+      "masked": "ACctT...BEMn",
       "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AC9fA...A4ed",
-      "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     }
   ],
-  "total_all": 71496,
-  "proxy_count": 395342,
-  "proxy_working": 21990,
-  "proxy_updated": "2026-06-24T14:00:10Z"
+  "total_all": 71762,
+  "proxy_count": 395497,
+  "proxy_working": 22030
 }
