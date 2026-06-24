@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-24T15:32:31Z",
+  "last_scan": "2026-06-24T15:59:42Z",
   "status": "success",
   "total_founded": 1,
-  "cumulative": 76300,
+  "cumulative": 76376,
   "cpm": 3,
   "by_provider": {
     "openai": 272,
@@ -12,7 +12,7 @@
     "github_token": 14,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 71639,
+    "twilio": 71715,
     "gitlab_token": 3,
     "stripe_test": 6,
     "anthropic": 1,
@@ -28,22 +28,23 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 20,
+    "proxy_list": 396062,
     "npm": 9,
     "grafana": 9,
     "paste_recent": 51,
     "GitHub Events": 5767,
     "Proxy Lists": 88,
-    "Gist": 60001,
+    "Gist": 60070,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 2,
-    "GreasyFork": 788,
-    "GH Archive": 12
+    "GreasyFork": 795,
+    "GH Archive": 12,
+    "proxy_working": 22154
   },
   "by_status": {
-    "invalid": 67648,
+    "invalid": 67724,
     "unverified": 4885,
     "error": 39,
     "valid": 3
@@ -51,12 +52,13 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACaZS...baHs",
+      "masked": "ACK42...k6Nv",
       "status": "invalid",
-      "source": "GitHub Events"
+      "source": "GreasyFork"
     }
   ],
-  "total_all": 72575,
-  "proxy_count": 395866,
-  "proxy_working": 22117
+  "total_all": 72651,
+  "proxy_count": 396062,
+  "proxy_working": 22154,
+  "proxy_updated": "2026-06-24T16:03:18Z"
 }
