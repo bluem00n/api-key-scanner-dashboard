@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-06-25T16:55:08Z",
+  "last_scan": "2026-06-25T17:26:59Z",
   "status": "success",
-  "total_founded": 7,
-  "cumulative": 86615,
+  "total_founded": 1,
+  "cumulative": 87263,
   "cpm": 3,
   "by_provider": {
-    "openai": 283,
+    "openai": 286,
     "google": 62,
     "huggingface": 15,
     "aws_secret": 275,
     "github_token": 14,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 81904,
+    "twilio": 82549,
     "gitlab_token": 3,
     "stripe_test": 12,
     "anthropic": 1,
@@ -28,73 +28,37 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 403935,
+    "proxy_list": 404361,
     "npm": 9,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 5840,
+    "GitHub Events": 5842,
     "Proxy Lists": 99,
-    "Gist": 70115,
+    "Gist": 70760,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 2,
-    "GreasyFork": 905,
+    "GreasyFork": 906,
     "GH Archive": 12,
-    "proxy_working": 23663
+    "proxy_working": 23825
   },
   "by_status": {
-    "invalid": 77945,
+    "invalid": 78593,
     "unverified": 4896,
     "error": 46,
     "valid": 3
   },
   "recent_masked": [
     {
-      "provider": "OpenAI",
-      "masked": "sk-mO...E2B8",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
       "provider": "Twilio",
-      "masked": "ACmLf...kWh9",
+      "masked": "ACxnd...a1fa",
       "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACCN7...m3DK",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "AC6l0...V9iu",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACG23...Dn2E",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACY4V...wgWX",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACADB...3C61",
-      "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     }
   ],
-  "total_all": 82890,
-  "proxy_count": 403935,
-  "proxy_working": 23663,
-  "proxy_updated": "2026-06-25T16:58:27Z"
+  "total_all": 83538,
+  "proxy_count": 404361,
+  "proxy_working": 23825,
+  "proxy_updated": "2026-06-25T17:27:09Z"
 }
