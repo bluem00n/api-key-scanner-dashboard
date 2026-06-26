@@ -1,8 +1,8 @@
 {
-  "last_scan": "2026-06-26T02:30:58Z",
+  "last_scan": "2026-06-26T03:02:14Z",
   "status": "success",
-  "total_founded": 571,
-  "cumulative": 93259,
+  "total_founded": 4,
+  "cumulative": 93270,
   "cpm": 4,
   "by_provider": {
     "openai": 293,
@@ -12,7 +12,7 @@
     "github_token": 15,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 88520,
+    "twilio": 88531,
     "gitlab_token": 3,
     "stripe_test": 12,
     "anthropic": 1,
@@ -28,23 +28,23 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 407563,
+    "proxy_list": 407734,
     "npm": 9,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 5884,
+    "GitHub Events": 5892,
     "Proxy Lists": 101,
     "Gist": 76630,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 2,
-    "GreasyFork": 988,
+    "GreasyFork": 991,
     "GH Archive": 12,
-    "proxy_working": 24620
+    "proxy_working": 24664
   },
   "by_status": {
-    "invalid": 84585,
+    "invalid": 84596,
     "unverified": 4898,
     "error": 47,
     "valid": 4
@@ -52,67 +52,31 @@
   "recent_masked": [
     {
       "provider": "Twilio",
-      "masked": "ACQVZ...AAAA",
+      "masked": "ACT4x...1UaY",
       "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "ACMA5...AAAj",
+      "masked": "ACXur...uJm6",
       "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "ACVBZ...AAAl",
+      "masked": "ACqk5...7L9H",
       "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     },
     {
       "provider": "Twilio",
-      "masked": "ACuC6...ACuC",
+      "masked": "ACU1P...kjYF",
       "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACuC7...AAAr",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACuC5...AAAr",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACuC5...AAAr",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACUFZ...ADqq",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACkar...ADeO",
-      "status": "invalid",
-      "source": "Gist"
-    },
-    {
-      "provider": "Twilio",
-      "masked": "ACHGl...AAAV",
-      "status": "invalid",
-      "source": "Gist"
+      "source": "GitHub Events"
     }
   ],
-  "total_all": 89534,
-  "proxy_count": 407563,
-  "proxy_working": 24620,
-  "proxy_updated": "2026-06-26T02:36:16Z"
+  "total_all": 89545,
+  "proxy_count": 407734,
+  "proxy_working": 24664,
+  "proxy_updated": "2026-06-26T03:09:13Z"
 }
