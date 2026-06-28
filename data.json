@@ -1,18 +1,18 @@
 {
-  "last_scan": "2026-06-28T04:57:28Z",
+  "last_scan": "2026-06-28T05:31:20Z",
   "status": "success",
-  "total_founded": 1,
-  "cumulative": 117395,
+  "total_founded": 6,
+  "cumulative": 117759,
   "cpm": 5,
   "by_provider": {
-    "openai": 341,
+    "openai": 342,
     "google": 81,
-    "huggingface": 22,
+    "huggingface": 23,
     "aws_secret": 275,
     "github_token": 17,
     "aws_key": 6,
     "discord": 56,
-    "twilio": 112541,
+    "twilio": 112903,
     "gitlab_token": 3,
     "stripe_test": 13,
     "anthropic": 1,
@@ -29,37 +29,65 @@
   "by_source": {
     "github": 233,
     "gist": 5588,
-    "proxy_list": 447686,
+    "proxy_list": 20,
     "npm": 10,
     "grafana": 9,
     "paste_recent": 51,
-    "GitHub Events": 6185,
+    "GitHub Events": 6186,
     "Proxy Lists": 105,
-    "Gist": 100130,
+    "Gist": 100480,
     "Kaggle": 1,
     "Colab": 5,
     "Hacker News": 1,
     "4chan /g/": 3,
-    "GreasyFork": 1317,
-    "GH Archive": 12,
-    "proxy_working": 36990
+    "GreasyFork": 1330,
+    "GH Archive": 12
   },
   "by_status": {
-    "invalid": 108685,
+    "invalid": 109049,
     "unverified": 4902,
     "error": 78,
     "valid": 5
   },
   "recent_masked": [
     {
-      "provider": "Cohere",
-      "masked": "co-Cb...4Mho",
+      "provider": "Twilio",
+      "masked": "ACUNh...BJfH",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACRmP...VpeV",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACPKv...6YJz",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACTBp...OJQy",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "ACNUm...smtz",
+      "status": "invalid",
+      "source": "GreasyFork"
+    },
+    {
+      "provider": "Twilio",
+      "masked": "AC2RK...O3kP",
       "status": "invalid",
       "source": "GreasyFork"
     }
   ],
-  "total_all": 113670,
-  "proxy_count": 447686,
-  "proxy_working": 36990,
-  "proxy_updated": "2026-06-28T05:00:47Z"
+  "total_all": 114034,
+  "proxy_count": 448026,
+  "proxy_working": 37123
 }
